@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* Background Colors: */
+--background-color: #010101;
+--content-background-color: #0f1140;
+--sidebar-background-color: #1b5e20;
+
+  /* Background Image */
+  --background-image: url("assets/rainbowstar.gif");
+
+  /* Text Colors: */
+  --text-color: #ffffff;
+  --sidebar-text-color: #ffffff;
+  --link-color: #0088ff;
+  --link-color-hover: #00aaff;
+
+  /* Text: */
+  --font: "Noto Sans", sans-serif;
+  --font-size: 1em;
+
+  /* Other Settings: */
+  --margin: 20px;
+  --padding: 20px;
+  --border: 2px solid #000000;
+  --round-borders: 0px;
+  --sidebar-width: 210px;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: var(--font-size);
+  margin: 0;
+  padding: var(--margin);
+  color: var(--text-color);
+  font-family: var(--font);
+  line-height: 1.2;
+  background: var(--background-color);
+  background-image: var(--background-image);
+  /* background-size: 100%; */
+  /* filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.7)); */
+  
+}
+
+ul {
+  /* padding: 0; */
+  /* list-style-image: url("assets/bullet.gif"); */
+  list-style-type: square;
+  
+  /* user-select: none; */
+}
+
+main {
+    width: 1000px;
+    grid-area: main;
+    overflow-y: auto;
+    padding: var(--padding);
+    background: var(--content-background-color);
+    border: var(--border);
+    border-radius: var(--round-borders);
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-image {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.pixel-art {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: var(--text-color);
+}
+
+.icon {
+    height: 16px;
+    width: auto;
+    padding-right: 4px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--link-color-hover);
+    text-decoration: none;
+    display: inline-block;
+    transform: translateY(-4px);
+}
+
+a:visited {
+    color: var(--link-color);
+}
