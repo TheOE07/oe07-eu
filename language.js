@@ -69,7 +69,7 @@
         setText('from', 'from : england');
         setText('age', 'age : 18');
         setText('pronouns', 'pronouns : they/them');
-        setText('languages', 'languages : english (native), french (b2ish?), japanese (beginner)');
+        setText('languages', 'languages : english (native), french (b2ish?), japanese (beginner), catalan (beginner)');
         setText('links', 'link but again');
         setText('disclaimers', 'disclaimers');
       }
