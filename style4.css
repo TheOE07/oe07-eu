@@ -1,0 +1,134 @@
+html{
+margin: 0px;
+padding: 0px;
+height:100%;
+background-image:url('assets/WaterTileOcean.gif');
+background-size: auto;
+background-position:center;
+/* background-repeat:no-repeat; */
+background-color:#2d3a80;
+font-family: 'Noto Sans', sans-serif;
+font-size: 13px;
+color:#fff;
+text-align:justify;
+letter-spacing:1px;
+}
+
+#box1{
+position:relative;
+width:735px;
+min-height:100%;
+margin:72px auto;
+padding:8px;
+}
+
+#header{
+height:120px;
+/* width:735px; */
+background-image:url('assets/welcome.gif');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+border:1px solid #2460ce;
+}
+
+#linkity{
+position:absolute;
+top:-23px;
+left:7px;
+width:735px;
+line-height:30px;
+text-align:center;
+}
+
+#linkity a{
+width:120px;
+display:inline-block;
+margin-right:-3px;
+background-color:#000040;
+color:#fff;
+-moz-border-radius:10px 10px 0px 0px;
+-webkit-border-radius:10px 10px 0px 0px;
+border-radius:10px 10px 0px 0px;
+text-transform:uppercase;
+letter-spacing:2px;
+border:1px solid #090023;
+}
+
+#linkity a:hover{
+background-color:rgba(10,10,55,0.6);
+border-bottom:1px solid #fff;
+-moz-transition:.4s;
+-webkit-transition:.4s;
+transition:.4s;}
+
+#box2{
+position:relative;
+/* top:359px; */
+margin-top: 20px;
+width:520px;
+min-height:100%;
+border:1px solid #090023;
+margin-right:4px;
+padding:8px;
+background-color:rgba(10,10,55,0.6);
+/* border-radius:10px 10px 10px 10px; */
+margin-bottom:4px;
+} 
+
+#box3{
+position:absolute;
+top:130px;
+margin-top: 20px;
+left:553px;
+width:174px;
+/* min-height:100%; */
+border:1px solid #090023;
+padding:8px;
+background-color:rgba(10,10,55,0.6);
+/* border-radius:10px 10px 10px 10px; */
+margin-bottom:4px;
+text-align:left;
+}
+
+h1{
+text-align:center;
+text-shadow: #000 1px 1px 0px;
+font-size:14px;
+line-height:30px;
+font-family:times;
+font-weight:bold;
+display:block;
+border-bottom:1px solid #2460ce;
+letter-spacing:2px;
+margin: -2px 0px 0px -4px;
+background:url('assets/rainbowstar.gif');
+background-size:auto;
+background-position:center;
+
+/* background-repeat:no-repeat; */
+}
+
+a{
+color:#fff;
+background:#005;
+text-decoration:none;
+font-style:italic;
+}
+
+a:hover{
+background:rgb(35,0,35);
+}
+
+.pokemon{
+/* width: 100px;
+height: 100px; */
+margin: -20px;
+/* margin-left: -0px; */
+}
+
+.lang {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+}
