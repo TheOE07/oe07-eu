@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style4.css">
+        <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="box1">
+            <div id="linkity">
+                <a href="homepage.html">homepage</a>
+                <a href="links.html">links</a>
+                <a href="index.html">main</a>
+                <a href="library.html">library</a>`
+                <a href="http://almostsweet.neocities.org">link ?</a>
+            </div>
+            <div id="mainBox">
+                <div id="pageTitle">homepage</div>
+                <p>note : this page is just used as my new tab page because i don't like the firefox default one lmao</p>
+                <p id="dateTime"></p>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/55d95n3d19/edinburgh/" data-label_1="EDINBURGH" data-label_2="WEATHER" data-font="Trebuchet MS" data-icons="Climacons Animated" data-shadow="#000000" data-textcolor="#ffffff" data-highcolor="#ffffff" data-lowcolor="#ffffff" data-suncolor="#f5dc25" data-mooncolor="#d7d7d7" data-cloudcolor="#d7d7d7" data-cloudfill="#a3a3a3" data-raincolor="#20b1dd" data-snowcolor="#eaeaea" >EDINBURGH WEATHER</a>
+                <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script>
+               
+                <script>
+                function updateClock() {
+                    const now = new Date();
+                    const formatter = new Intl.DateTimeFormat("en-GB", {
+                        hour: "2-digit",
+                        minute: "2-digit",
+                        second: "2-digit",
+                        timeZoneName: "short",
+                        weekday: "long",
+                        day: "2-digit",
+                        month: "long",
+                        year: "numeric"
+                    });
+
+                    const parts = formatter.formatToParts(now);
+                    const value = (type) => parts.find((part) => part.type === type)?.value || "";
+                    document.getElementById("dateTime").textContent = `${value("hour")}:${value("minute")}:${value("second")} ${value("timeZoneName")}, ${value("weekday")}, ${value("day")} ${value("month")} ${value("year")}`;
+                }
+
+                updateClock();
+                setInterval(updateClock, 1000);
+                </script>
+                <h1>links</h1>
+                <a class="linkBox" href="https://twitter.com/">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/twitter.svg">
+                    twitter
+                </a>
+                <a class="linkBox" href="https://youtube.com/">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/youtube.svg">
+                    youtube
+                </a>
+                <a class="linkBox" href="https://gmail.com/">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/gmail.svg"> 
+                    gmail
+                </a>
+                <a class="linkBox" href="https://outlook.office.com/">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/microsoft-outlook.svg"> 
+                    outlook
+                </a>
+                <a class="linkBox" href="https://translate.google.fr/">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/google-translate.svg"> 
+                    translate
+                </a>
+                <a class="linkBox" href="https://drive.google.com/drive/u/0/my-drive">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/google-drive.svg"> 
+                    drive
+                </a>
+                <a class="linkBox" href="https://en.wikipedia.org/>">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/wikipedia.svg"> 
+                    wikipedia
+                </a>
+                <a class="linkBox" href="https://en.wiktionary.org/wiki/Wiktionary:Main_Page">
+                    <img class="icon" src="https://cdn.simpleicons.org/wikimediafoundation/000000"> 
+                    wiktionary
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>oe07.eu - homepage</title>
+        <link href="./style3.css" rel="stylesheet" />
+        
+    </head>
+    <body>
+        <div class="container">
+        
+        <main>
+            <header>
+                <img src="assets/welcome.gif" alt="Welcome to oe07.eu" class="banner-image"/>
+            </header>
+            <nav>
+                <!-- <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/page1">Page 1</a></li>
+                    <li><a href="/page2">Page 2</a></li>
+                </ul> -->
+                <h2 style="display: inline;">you are here:&nbsp; </h2>
+                <select onchange="location = this.value;">
+                    <option selected="" value="">homepage</option>
+                    <hr>
+                    <option value="about.html">about me</option>
+                    <option value="links.html">links</option>
+                    <option value="/poetry.html">placeholder 1</option>
+                    <option value="/explore.html">placeholder 2</option>
+                    <option value="/guestbook.html">placeholder 3</option>
+                </select>
+            </nav>
+            <div style="display:flex;align-items:center;gap:1rem;">
+                <div style="flex:1;">
+                    <h2>hi!</h2>
+                    <p>welcome to my website! this is the homepage. to navigate around, use the dropdown above :)</p>
+                    <p>alternatively, click <a href="about.html">here</a> to get straight to the about me page</p>
+                </div>
+                <img src="assets/deltaruneCampfire.gif" alt="deltarune party members around a campfire" class="pixel-art" style="width:30%;height:auto;">
+            </div>
+           
+            <footer>
+                <p>last updated: 25/03/2026</p>
+                <p style="font-size: 0.7rem;">(no MM/DD/YYYY here tyvm)</p>
+        </main>
+        
+
+</html>

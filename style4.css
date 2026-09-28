@@ -94,7 +94,7 @@ text-align:left;
 h1{
 text-align:center;
 text-shadow: #000 1px 1px 0px;
-font-size:14px;
+font-size:16px;
 line-height:30px;
 font-family:times;
 font-weight:bold;
@@ -116,6 +116,23 @@ text-decoration:none;
 font-style:italic;
 }
 
+.weatherwidget-io {
+    color:#fff;
+    background:#ffffff00;
+    text-decoration:none;
+    font-style:default;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.weatherwidget-io:hover {
+    color:#fff;
+    background:#ffffff00;
+    text-decoration:none;
+    font-style:default;
+}
+
+
 a:hover{
 background:rgb(35,0,35);
 }
@@ -131,4 +148,86 @@ margin: -20px;
         position: absolute;
         top: 10px;
         right: 10px;
+}
+
+#mainBox{
+position:relative;
+/* top:359px; */
+/* margin-top: 20px; */
+/* width:735px; */
+min-height:100%;
+border:1px solid #090023;
+margin-right:4px;
+padding:8px;
+background-color:rgba(10,10,55,0.6);
+/* border-radius:10px 10px 10px 10px; */
+margin-bottom:4px;
+} 
+
+#mainBox iframe {
+    display: block;
+    border: 0;
+    margin-top: 8px;
+}
+
+#pageTitle{
+text-align: center;
+font-size: 5em;
+text-shadow: 4px 4px 0px #000000;
+font-style: italic;
+font-family: 'Courier New', Courier, monospace;
+color: #aaaaff;
+margin-bottom: 5px;
+}
+
+.poster {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 170px; 
+    margin: 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.linkBox {
+    position: relative;
+    width: 330px;
+    height: auto;
+    /* max-width: 300px;  */
+    margin: 6px;
+    margin-top: 5px;
+    background-color: rgba(10, 10, 55, 0.6);
+    border: #000 1px solid;
+    padding: 5px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.icon {
+    position: relative;
+    width: auto;
+    height: 30px; 
+    margin: 2px;
+    margin-top: 5px;
+}
+
+.linkBox a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10px;
+    background: none;
+}
+
+#dateTime {
+
+    width: 100%;
+    height: auto;
+    font-size: 2em;
+    color: #aaaaff;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 0px #000000;
+    text-align: center;
 }

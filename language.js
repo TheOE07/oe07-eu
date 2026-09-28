@@ -1,4 +1,13 @@
+    const LANGUAGE_STORAGE_KEY = 'selectedLanguage';
+
     function changeLanguage(lang) {
+        localStorage.setItem(LANGUAGE_STORAGE_KEY, lang);
+
+        const dropdown = document.querySelector('#language-dropdown select');
+        if (dropdown) {
+            dropdown.value = lang;
+        }
+
         const setText = (id, value) => {
           const element = document.getElementById(id);
           if (element) {
@@ -11,7 +20,7 @@
         setText('welcomeText', "'opis ! ye li oli ha lepasahe ke oe07.eu :D ye ta na wo'aryu'e fru as lasra li kol re fisa li na ku'of dya <a href=\"https://neocities.org/\">neocities</a> el. ki fa gilelyar ulye nu sabro, de fola fisa ke na wo'ar so li !");
         setText('about1', 'ni dirye');
         setText('about2', 'ni dirye');
-        setText('aboutText1', "alki li oli ha ye li ni 'anur fru iril kol 18 ful so kele'anur 'i usri alba ral ! ba'i li re 'anur ro li na kele el, ha lun pa'i li na lasrakel (wo'ar ta 'u yukta insrekele <3). lun, ulye'ude li na ifwi dya, undertale/deltarune, pokémon, na furit so marvel, ha na kelosdeksro");
+        setText('aboutText1', "alki li oli ha ye li ni 'anur fru iril kol 18 ful so kele'anur 'i usri alba ral ! ba'i li re 'anur ro li na kele el, ha lun pa'i li na lasrakel (wo'ar ta 'u yukta insrekele <3). lun, ulye'ude li na ifwi dya undertale/deltarune, pokémon, na furit so marvel, ha na kelosdeksro");
         setText('aboutText2', "ki fisa ke <a href=\"library.html\">na fonriwo'ar</a> so li 'u wo'i re peri ke na ifwi fru nu'ula riso/dosra/'ule li kol :)");
         setText('current', 'na ¿nu\'uifwi?');
         setText('lastListened', 'prusla na kelos re \'ule');
@@ -78,7 +87,9 @@
     function initializeLanguage() {
       const dropdown = document.querySelector('#language-dropdown select');
       if (dropdown) {
-        changeLanguage(dropdown.value);
+        const savedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY) || dropdown.value;
+        dropdown.value = savedLanguage;
+        changeLanguage(savedLanguage);
       }
     }
 
