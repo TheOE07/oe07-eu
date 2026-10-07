@@ -44,7 +44,7 @@
         setText('about2', 'sobre mi');
         setText('aboutText1', "em dic oli i soc un estudiant de lingüística, japonès i català de 19 anys al regne unit ! m'agrada aprendre sobre el llenguatge i, per extensió, les llengües artificials (pots mirar las mevas canviant la llengua del lloc web :D). soc també fan de coses com undertale/deltarune, pokémon, el MCU, i els musicals");
         setText('aboutText2', "mira la mia <a href=\"library.html\">biblioteca</a> per veure les coses que he mirat/llegit/jugat/escoltat recentment :)");
-        setText('current', 'les ¿coses?');
+        setText('current', 'les ¿coses? actuals');
         setText('lastListened', 'cançó escoltada més recentment');
         setText('watching', 'mirant');
         setText('playing', 'jugant');
@@ -58,7 +58,29 @@
         setText('pronouns', 'pronoms : ell/ella');
         setText('languages', 'llengües : anglès (materna), francès (com b2?), japonès (principiant), català (principiant) ');
         setText('links', 'vincles');
-        setText('disclaimers', 'disclaimers');
+        setText('disclaimers', 'avís legal');
+      } else if (lang === 'jap') {
+        setText('welcome', 'ようこそ');
+        setText('welcomeText', "こんいちは！<ruby>oli<rt>オリー</rt></ruby>だよ。oe07.euへようこそ (^.^)　<a href=\"https://neocities.org/\">neocities</a>のようなウェブサイトが好きなので、この個人サイトを作った。どうぞ、見回してみてください！<br>※ボクの日本語はあまり上手じゃないです。このサイトは英語で読んでください。");
+        setText('about1', 'について');
+        setText('about2', 'について');
+        setText('aboutText1', "ボクの名前は<ruby>oli<rt>オリー</rt></ruby>です。イギリスで日本語と言語学を専攻しているの19歳の大学生です！言語について学ぶのが大好きで、人工言語もだい好きだよ。（サイトの言語をチェンジすると、ボクの人工言語を見ることができる　˶ᵔ ᵕ ᵔ˶）。また、ボクは<ruby>undertale<rt>アンダーテイル</rt></ruby>/<ruby>deltarune<rt>デルタルーン</rt></ruby>、ポケモン、MCU、ミュージカルなどがすきだ");
+        setText('aboutText2', "ボクが見た・プレイした・聴いたものについては、<a href=\"library.html\">ライブラリページ</a>をチェックしてください　(´｡• ᵕ •｡`) ♡");
+        setText('current', '¿こと?');
+        setText('lastListened', '最後に聴いた曲');
+        setText('watching', 'みている');
+        setText('playing', 'プレイしている');
+        setText('currentTeam', 'ポケモンチーム');
+        setText('mostListenedArtist', '最も聴かれているアーティスト');
+        setText('mostReplayedSong', '最もリプレイしているている曲');
+        setText('name', '名前 ：oli');
+        setText('country', '國 : スコットランド');
+        setText('from', '出身 : イングランド');
+        setText('age', '年 : 19');
+        setText('pronouns', '');
+        setText('languages', '言語：英語（母語）、フランス語（b2くらい）、日本語（初級）、カタルーニャ語（初級）');
+        setText('links', 'リンク');
+        setText('disclaimers', 'ディスクレーマー');
       } else {
         setText('welcome', 'welcome');
         setText('welcomeText', "hi ! i'm oli, and welcome to oe07.eu :D this is a personal site i made inspired by places like <a href=\"https://neocities.org/\">neocities</a>. don't expect many (if any) updates, but feel free to look around !");
