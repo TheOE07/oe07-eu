@@ -42,7 +42,7 @@
         setText('welcomeText', "hola ! soc l'oli i benvingut a oe07.eu :D aquest és un lloc web personal que he creat inspirant-me en llocs com <a href=\"https://neocities.org/\">neocities</a>. no esperis molts (o gens de) actualitzacions però no dubtis a explorar !");
         setText('about1', 'sobre mi');
         setText('about2', 'sobre mi');
-        setText('aboutText1', "em dic oli i soc un estudiant de lingüística, japonès i català de 19 anys al regne unit ! m'agrada aprendre sobre el llenguatge i, per extensió, les llengües artificials (pots mirar las mevas canviant la llengua del lloc web :D). soc també fan de coses com undertale/deltarune, pokémon, el MCU, i els musicals");
+        setText('aboutText1', "em dic oli i soc un estudiant de lingüística, japonès i català de 19 anys al regne unit ! m'agrada aprendre sobre el llenguatge i, per extensió, les llengües artificials (pots veure les meves canviant la llengua del lloc web :D). soc també fan de coses com undertale/deltarune, pokémon, el MCU, i els musicals");
         setText('aboutText2', "mira la mia <a href=\"library.html\">biblioteca</a> per veure les coses que he mirat/llegit/jugat/escoltat recentment :)");
         setText('current', 'les ¿coses? actuals');
         setText('lastListened', 'cançó escoltada més recentment');
