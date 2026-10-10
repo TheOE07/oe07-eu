@@ -73,7 +73,7 @@
         setText('currentTeam', 'ポケモンチーム');
         setText('mostListenedArtist', '最も聴かれているアーティスト');
         setText('mostReplayedSong', '最もリプレイしているている曲');
-        setText('name', '名前 ：oli');
+        setText('name', '名前 ：<ruby>oli<rt>オリー</rt></ruby>');
         setText('country', '國 : スコットランド');
         setText('from', '出身 : イングランド');
         setText('age', '年 : 19');
@@ -86,7 +86,7 @@
         setText('welcomeText', "heys ! esvì oli koe dhaghodaghya oe07.eu-i :D esdè gèy ĩ ngõvarĩ dhõyis guet karyã võycos gõvarĩs sãvl <a href=\"https://neocities.org/\">neocities</a>. nes n èf fel (nèw sal) ãsro asõs, ãfr dhãyu de woelũnèy !");
         setText('about1', 'am vi');
         setText('about2', 'am vi');
-        setText('aboutText1', "esdè shlũdhè vẽ oli-m esvìhoe orgãnosõ uessidhyedis 19 bleyzis ẽ niryõrikisi-nlõghos ! garu diskcos am yedi, koe karyedĩs (gesyës du gĩ gõvarĩ yedigõvòsyo <3). garuhoe asõs sãvl undertale/deltarune, pokémon, MCU, koe sgeysatreijĩ");
+        setText('aboutText1', "esdè shlũdhè vẽ oli-m esvìhoe orgãnosõ uessidhyedis 19 bleyzis ẽ niryõrikisi-nlõghos ! garu diskcos am yedĩ, koe karyedĩs (gesyès du gĩ gõvarĩ yedigõvòsyo <3). garuhoe asõs sãvl undertale/deltarune, pokémon, MCU, koe sgeysatreijĩ");
         setText('aboutText2', "woel <a href=\"library.html\">viblyosa</a> vẽ ghas drgũnèy asõs guet feroyya drgã/swarã/klusã :)");
         setText('current', '¿as? feroys');
         setText('lastListened', 'gãl klusos nedì');
@@ -102,6 +102,28 @@
         setText('pronouns', '');
         setText('languages', 'yedi : yedisasnèk (bresyedi), yedifrãs (am b2?), yedinihõ (gĩdr), yedikatalà (gĩdr)');
         setText('links', 'farihoe');
+        setText('disclaimers', 'disclaimers');
+      } else if (lang === 'kom-el') {
+        setText('welcome', 'δαγοδταγία');
+        setText('welcomeText', "χηίς ! ησβε ολι κω δαγοδταγία oe07.eu-ι :D ησδτε γκεί ῖ νγõβαρῖ δõίις γκυτ καρίᾶ βõίτίος γκõβαρῖς σᾶβλ <a href=\"https://neocities.org/\">neocities</a>. νης ν εφ φηλ (νεύ σαλ) ᾶσρο ασõς, ᾶφρ δᾶίου δτη ύωλοῦνεί !");
+        setText('about1', 'αμ βι');
+        setText('about2', 'αμ βι');
+        setText('aboutText1', "ησδτε σίλοῦδε βῆ ολι-μ ησβεχω οργκᾶνοσõ υσσιδίεδτις 19 βπληίζις ῆ νιρίõρικισι-νλõγος ! γκαρου δτισκτίος αμ ίηδτι, κω καρίηδτῖς (γκησίες δτου γκῖ γκõβαρῖ ίηδτιγκõβεσίο <3). γκαρουχω ασõς σᾶβλ undertale/deltarune, pokémon, MCU, κω σγκηίσατρειδίῖ");
+        setText('aboutText2', "ύωλ <a href=\"library.html\">βιβπλίοσα</a> βῆ γας δτργκουνεί ασõς γκυτ φηροίία δτργκᾶ/σύαρᾶ/κλουσᾶ :)");
+        setText('current', '¿ας? φηροίς');
+        setText('lastListened', 'γκᾶλ κλουσος νηδτε');
+        setText('watching', 'δτργκτίος');
+        setText('playing', 'σύαρτίος');
+        setText('currentTeam', 'ηχιπ pokémonις φηροίς');
+        setText('mostListenedArtist', 'αρτιστ κλουσοσισῖβες');
+        setText('mostReplayedSong', 'γκᾶλ ῖκλουσοσισῖβες');
+        setText('name', 'σίλοῦδε : ολι');
+        setText('country', 'δτιρίõ : δτιρραλβε');
+        setText('from', 'βπρησδτιρρε : δτιρρεσηύς');
+        setText('age', 'βπληίζι : 19');
+        setText('pronouns', '');
+        setText('languages', 'ίηδτι : ίηδτισασνεκ (βπρησίηδτι), ίηδτιφρᾶς (αμ b2?), ίηδτινιχõ (γκῖδτρ), ίηδτικαταλε (γκῖδτρ)');
+        setText('links', 'φαριχω');
         setText('disclaimers', 'disclaimers');
       } else {
         setText('welcome', 'welcome');
