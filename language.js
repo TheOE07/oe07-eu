@@ -42,7 +42,7 @@
         setText('welcomeText', "hola ! soc l'oli i benvingut a oe07.eu :D aquest és un lloc web personal que he creat inspirant-me en llocs com <a href=\"https://neocities.org/\">neocities</a>. no esperis molts (o gens de) actualitzacions però no dubtis a explorar !");
         setText('about1', 'sobre mi');
         setText('about2', 'sobre mi');
-        setText('aboutText1', "em dic oli i soc un estudiant de lingüística, japonès i català de 19 anys al regne unit ! m'agrada aprendre sobre el llenguatge i, per extensió, les llengües artificials (pots veure les meves canviant la llengua del lloc web :D). soc també fan de coses com undertale/deltarune, pokémon, el MCU, i els musicals");
+        setText('aboutText1', "em dic oli i soc un estudiant de lingüística, japonès i català de 19 anys al regne unit ! m'agrada aprendre sobre el llenguatge i, per extensió, les llengües artificials (pots veure les meves canviant la llengua del lloc web <3). soc també fan de coses com undertale/deltarune, pokémon, el MCU, i els musicals");
         setText('aboutText2', "mira la mia <a href=\"library.html\">biblioteca</a> per veure les coses que he mirat/llegit/jugat/escoltat recentment :)");
         setText('current', 'les ¿coses? actuals');
         setText('lastListened', 'cançó escoltada més recentment');
@@ -124,6 +124,28 @@
         setText('pronouns', '');
         setText('languages', 'ίηδτι : ίηδτισασνεκ (βπρησίηδτι), ίηδτιφρᾶς (αμ b2?), ίηδτινιχõ (γκῖδτρ), ίηδτικαταλε (γκῖδτρ)');
         setText('links', 'φαριχω');
+        setText('disclaimers', 'disclaimers');
+      } else if (lang === 'fra') {
+        setText('welcome', 'bienvenue');
+        setText('welcomeText', "salut ! je suis oli et bienvenue à oe07.eu :D ceci est un site web personnel que j'ai crée, inspirée par des sites comme <a href=\"https://neocities.org/\">neocities</a>. ne t'attends pas à beaucoup de mises à jour mais n'hésite pas à jeter un coup d'œil !");
+        setText('about1', 'à propos');
+        setText('about2', 'à propos');
+        setText('aboutText1', "je m'appelle oli, j'ai 19 ans et je suis étudiant en linguistique et japonais au royaume uni ! j'adore apprendre des choses sur le langage, et donc les conlangs aussi (tu peux voir les miennes en changeant la langue du site <3). je suis aussi fan des trucs comme undertale/deltarune, pokémon, le MCU, et les comédies musicales");
+        setText('aboutText2', "tu peux voir ma <a href=\"library.html\">bibliothèque</a> pour voir les trucs que j'ai vu/lu/joué recemment :)");
+        setText('current', '¿trucs? actuels');
+        setText('lastListened', 'chanson écoutée le plus récemment');
+        setText('watching', 'en train de regarder');
+        setText('playing', 'en train de jouer');
+        setText('currentTeam', 'équipe de pokémon actuelle');
+        setText('mostListenedArtist', 'artiste le plus écouté');
+        setText('mostReplayedSong', 'chanson la plus re-écoutée');
+        setText('name', 'nom : oli');
+        setText('country', 'pays : écosse');
+        setText('from', 'origine : angleterre');
+        setText('age', 'âge : 19');
+        setText('pronouns', '');
+        setText('languages', 'langues : anglais (maternelle), français (comme b2?), japonais (débutant), catalan (débutant) ');
+        setText('links', 'liens mais encore');
         setText('disclaimers', 'disclaimers');
       } else {
         setText('welcome', 'welcome');
