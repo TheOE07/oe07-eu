@@ -81,6 +81,28 @@
         setText('languages', '言語：英語（母語）、フランス語（b2くらい）、日本語（初級）、カタルーニャ語（初級）');
         setText('links', 'リンク');
         setText('disclaimers', 'ディスクレーマー');
+      } else if (lang === 'kom-la') {
+        setText('welcome', 'dhaghodaghya');
+        setText('welcomeText', "heys ! esvì oli koe dhaghodaghya oe07.eu-i :D esdè gèy ĩ ngõvarĩ dhõyis guet karyã võycos gõvarĩs sãvl <a href=\"https://neocities.org/\">neocities</a>. nes n èf fel (nèw sal) ãsro asõs, ãfr dhãyu de woelũnèy !");
+        setText('about1', 'am vi');
+        setText('about2', 'am vi');
+        setText('aboutText1', "esdè shlũdhè vẽ oli-m esvìhoe orgãnosõ uessidhyedis 19 bleyzis ẽ niryõrikisi-nlõghos ! garu diskcos am yedi, koe karyedĩs (gesyës du gĩ gõvarĩ yedigõvòsyo <3). garuhoe asõs sãvl undertale/deltarune, pokémon, MCU, koe sgeysatreijĩ");
+        setText('aboutText2', "woel <a href=\"library.html\">viblyosa</a> vẽ ghas drgũnèy asõs guet feroyya drgã/swarã/klusã :)");
+        setText('current', '¿as? feroys');
+        setText('lastListened', 'gãl klusos nedì');
+        setText('watching', 'drgcos');
+        setText('playing', 'swarcos');
+        setText('currentTeam', 'ehip pokémonis feroys');
+        setText('mostListenedArtist', 'artist klusosisĩvùs');
+        setText('mostReplayedSong', 'gãl ĩklusosisĩvùs');
+        setText('name', 'shlũdhò : oli');
+        setText('country', 'diryõ : dirralvà');
+        setText('from', 'bresdirrè : dirràsews');
+        setText('age', 'bleyzi : 19');
+        setText('pronouns', '');
+        setText('languages', 'yedi : yedisasnèk (bresyedi), yedifrãs (am b2?), yedinihõ (gĩdr), yedikatalà (gĩdr)');
+        setText('links', 'farihoe');
+        setText('disclaimers', 'disclaimers');
       } else {
         setText('welcome', 'welcome');
         setText('welcomeText', "hi ! i'm oli, and welcome to oe07.eu :D this is a personal site i made inspired by places like <a href=\"https://neocities.org/\">neocities</a>. don't expect many (if any) updates, but feel free to look around !");
