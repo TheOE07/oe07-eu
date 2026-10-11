@@ -147,6 +147,28 @@
         setText('languages', 'langues : anglais (maternelle), français (comme b2?), japonais (débutant), catalan (débutant) ');
         setText('links', 'liens mais encore');
         setText('disclaimers', 'disclaimers');
+      } else if (lang === 'tok') {
+        setText('welcome', '<span class="sitelen-pona">kama-pona</span>');
+        setText('welcomeText', '<p class="sitelen-pona">toki ! mijan[olin,,,].o kama-pona e [\\o\\e07\\.\\e\\u]lipu sama <a href=https://neocities.org/">lipu [\\n\\e\\oc\\it\\i\\es]</a> li pona tawa mi la, mi pali e lipu jan ni. o wile-ala e sin mute, taso o lukin!</p>');
+        setText('about1', '<span class="sitelen-pona">sona mi</span>');
+        setText('about2', '<span class="sitelen-pona">sona mi</span>');
+        setText('aboutText1', '<p class="sitelen-pona">nimi mi li jan[olin,,,]. mi sike 19. mi kama-sona e toki[nimi,,pona,,,] e sona-toki lon ma[pipi,,tan,,,]. sona-toki li pona-mute tawa(mi) la, toki-sin kin li pona tawa(mi). sina ante e toki-lipu la, sina ken(lukin) e toki-sin mi mute  <3. ijo sama musi[\\u\\nd\\e\\rt\\al\\e], musi[d\\elt\\a\\r\\u\\n\\e], musi[MCU] en musi-kalama li pona kin tawa(mi).</p>');
+        setText('aboutText2', '<p class="sitelen-pona">lon <a href=\"library.html\">lipu pi(ijo-musimi)</a> la, sina ken(lukin) e musi mute ni: mi lukin e ona</p>');
+        setText('current', '<span class="sitelen-pona">¿ijo mute? pi(tenpo ni)</span>');
+        setText('lastListened', '<span class="sitelen-pona">tenpo ni la, mi kute e musi-kalama ni</span>');
+        setText('watching', '<span class="sitelen-pona">mi lukin e ni</span>');
+        setText('playing', '<span class="sitelen-pona">mi musi e ni</span>');
+        setText('currentTeam', '<span class="sitelen-pona">kulupu monsuta[pona,,kepeken,,monsuta,,,] pi(tenponi)</span>');
+        setText('mostListenedArtist', '<span class="sitelen-pona">mi kute mute e jan ni pi(pali-musi)</span>');
+        setText('mostReplayedSong', '<span class="sitelen-pona">mi kute-sike mute e musi kalama ni</span>');
+        setText('name', '<p class="sitelen-pona">nimi: jan[olin,,,]</p>');
+        setText('country', '<p class="sitelen-pona">ma : ma [suwi,,ko,,sike,,]</p>');
+        setText('from', '<p class="sitelen-pona">ma mama: ma [insa,, linja,,]</p>');
+        setText('age', '<p class="sitelen-pona">sike: 19</p>');
+        setText('pronouns', '');
+        setText('languages', '<p class="sitelen-pona">toki: toki[insa,, linja,,] \\(toki mama\\), toki[kala,,n,sewi,,] \\(sama B2 ?\\), toki[nimi,,pona,,] \\(jan-open\\), toki[kala,,tawa,,laso,,] \\(jan-open\\), toki-pona </p>');
+        setText('links', '<span class="sitelen-pona">linja-kin</span>');
+        setText('disclaimers', 'disclaimers');
       } else {
         setText('welcome', 'welcome');
         setText('welcomeText', "hi ! i'm oli, and welcome to oe07.eu :D this is a personal site i made inspired by places like <a href=\"https://neocities.org/\">neocities</a>. don't expect many (if any) updates, but feel free to look around !");
